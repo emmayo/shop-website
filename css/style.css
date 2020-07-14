@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	background-color:#dadada;
+}
+.header-content{
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	align-items: center;
+}
+.Address {
+	display: flex;
+	align-items: center;
+}
+.Address span{
+	padding-right: 20px;
+	margin-right: 20px;
+	align-self: center;
+	color: #fff
+}
+.icon i {
+	padding: 20px;
+}
+.icon i:hover{
+	color: gold;
+}
+.menu-content{
+	height: 80px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size:16px;
+	text-transform: uppercase;
+}
+
+.logo{
+	color:green;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration-color:gold;
+	margin-left: 3%;
+}
+nav a{
+   color: black;
+  padding: 10px;
+    }
+
+  nav{
+	margin-right: 3%;
+	font-weight: bold;
+    }
+
+.banner{
+	background: linear-gradient(rgba(22,55,222,0.7),rgba(222,32,123,0.6),rgba(44,55,22,0.8)),url(../images/1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 550px;
+	margin-bottom: 50px;
+}
+
+body.contact{
+    margin: 0;
+	background-color:#dadada;	
+}
+.banner-contact{
+	background: linear-gradient(rgba(22,55,333,0.8),rgba(22,33,122,0.7),rgba(44,55,22,0.9)),url(../images/2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+body.about{
+    margin: 0;
+	background-color:#dadada;	
+}
+.banner-about{
+	background: linear-gradient(rgba(22,55,333,0.8),rgba(22,33,122,0.7),rgba(44,55,22,0.9)),url(../images/3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin-bottom: 50px;
+}
+.team{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: 33px;
+}
+.Address{
+	margin-left: 50px;
+}
